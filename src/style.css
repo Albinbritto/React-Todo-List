@@ -1,0 +1,51 @@
+h1,
+p {
+  font-family: Lato;
+}
+.icon-default {
+  width: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  border: 1px solid #e1dada;
+  border-radius: 3px;
+  outline: none;
+}
+
+section {
+  margin: 50px auto;
+  max-width: 600px;
+}
+ul {
+  margin: 20px 0;
+  padding: 0;
+  border-radius: 3px;
+}
+li {
+  border-top: 1px solid #d5d5d5;
+  border-left: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li:last-child {
+  border-bottom: 1px solid #d5d5d5;
+}
+li svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
